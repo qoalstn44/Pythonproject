@@ -6,7 +6,7 @@ def find_max_num(array):
         for compare_num in array:
             if num < compare_num:
                 break
-        else:
+            else:
                 return num
 
 

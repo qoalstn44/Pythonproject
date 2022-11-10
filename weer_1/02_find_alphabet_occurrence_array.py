@@ -6,6 +6,7 @@ def find_alphabet_occurrence_array(string):
             continue
         arr_index = ord(char) - ord("a")
         alphabet_occurrence_array[arr_index] += 1
-
+    
+    return alphabet_occurrence_array
 
 print(find_alphabet_occurrence_array("hello my name is sparta"))
