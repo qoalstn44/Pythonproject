@@ -35,7 +35,7 @@ while True:
         if isSuccess:  
             break #break를 하지않으면 무한반복되기 떄문에 마지막에 무조건 적어두도록 합시다.
         else:
-            pyautogui.hotkey('alt', 'f4') #Fales가 뜨고 여기서 pyautogui.hotkey 함수를 이용해 alt, f4를 눌러 웹페이지를 종료
+            pyautogui.hotkey('alt', 'f4') #Fales가 뜨고 여기서 pyautogui.hotkey 함수를 이용해 alt, f4를 눌러 웹페이지를 종료한다.
         timePre = time.time()
     else:
         if(timeElapsed != timeElapsedPre):
